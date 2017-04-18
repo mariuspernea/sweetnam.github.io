@@ -1,0 +1,806 @@
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+@media (max-width: 800px) {
+    #socialmedia {
+        display: none;
+    }
+
+    #hospitals {
+        display: none;
+    }
+
+    #socialmedia_bottom {
+        display: none;
+    }
+
+    #home {
+        font-size: 0.75em;
+        font-weight: 300;
+    }
+
+}
+
+
+
+@media (max-width: 650px) {
+
+    #socialmedia {
+        display: none;
+    }
+
+    #welcometext {
+        font-size: 8px;
+    }
+
+    #socialmedia_bottom {
+        display: none;
+    }
+
+    #hospitals {
+        display: none;
+    }
+
+    /*#kings_contact {
+        display: none;
+    }
+
+    #well_contact {
+        display: none;
+    }*/
+
+    #welcometext {
+        text-align: justify;
+    }
+
+    #title_background, #title_physiotherapy, #title_kneecomplaints, #contact h1 {
+        font-size: 2em;
+    }
+
+    #text_background {
+        text-align: justify;
+    }
+
+    #text_kneecomplaints {
+        text-align: justify;
+    }
+
+    #text_physiotherapy {
+        text-align: justify;
+    }
+
+    .text_contact {
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+        font-size: 0.8em;
+
+    }
+
+    .hospital_address {
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+
+        font-size: 0.8em;
+    }
+
+    #mailicon {
+        font-size: 1em;
+    }
+
+    #phoneicon {
+        font-size: 1em;
+    }
+
+}
+
+.navbar-toggle {
+    background-color: white;
+    float:left;
+    margin-left:10px;
+}
+
+
+
+
+.icon-bar {
+    background-color: black;
+}
+
+.container {
+    width: 80%;
+
+}
+
+.titlu {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#header {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    position: relative;
+
+}
+
+#bottom_nav {
+    border-top: 1px solid #98bae1;
+    border-bottom: 1px solid #98bae1;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+
+.navbar {
+    box-shadow: none;
+    margin-top: 10px;
+}
+
+@media (max-width: 650px) {
+    .navbar {
+        margin-top:0px;
+    }
+}
+
+@media (max-width: 800px) {
+  .navbar {
+      margin-top:0px;
+  }
+}
+
+.bottom_title {
+    margin-top:6px;
+    margin-bottom: 6px;
+    /*width:451px;*/
+}
+
+@media (max-width: 650px) {
+.bottom_title {
+  /*width:363px;*/
+  font-size:12px;
+  /*font-size:1.6em;*/
+}
+.marginleft {
+    margin-left:-6px;
+    }
+}
+
+.nav {
+    /*border-top: 1px solid #003d6a;*/
+    /*border-bottom: 1px solid #003d6a;*/
+    border-bottom: 1px solid #98bae1;
+    border-top: 1px solid #98bae1;
+
+
+}
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #003d6a;
+    /*color:black;*/
+    display: block;
+    border-bottom: 1px solid transparent;
+}
+
+.nav ul li a:hover {
+    /*border-bottom: 1px solid #5692ce;*/
+    border-bottom: 1px solid #003d6a;
+    /*color:#5692ce;*/
+}
+
+.nav ul li a::after {
+    content: attr(title);
+    border-bottom: 1px solid #003d6a;
+    display: block;
+    height: 1px;
+    color: transparent;
+    overflow: hidden;
+    visibility: hidden;
+    margin-top: -1px;
+
+}
+
+.sweetnam {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3em;
+    color: black;
+    display: inline;
+    margin-bottom: 5px;
+    cursor:default;
+    letter-spacing: -1.5px;
+}
+
+#ds {
+    padding-top: 0.5vw;
+}
+
+#title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    font-weight:300;
+    color: #777676;
+    display: inline;
+    margin-left:1.25vw;
+    letter-spacing: 1px;
+    line-height: 1;
+    cursor:default;
+}
+
+#socialmedia {
+    position: absolute;
+    top: 1.8vw;
+    margin-left: 2vw;
+}
+
+#socialmedia a {
+    text-decoration: none;
+    color: #8a8a8a;
+    padding: 0px 10px 0px 10px;
+}
+
+#socialmedia a i {
+    border: 1px solid #8a8a8a;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+#socialmedia_bottom {
+    top:17px;
+
+
+
+
+}
+
+#socialmedia_bottom a {
+    text-decoration: none;
+    color: #5692ce;
+    padding: 0px 10px 0px 10px;
+}
+
+#socialmedia_bottom a i {
+    border: 1px solid #5692ce;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+#hospitals {
+
+    right: 20px;
+    position: absolute;
+    top: 10px;
+}
+
+#kings {
+    height: 5vw;
+    width: auto;
+    margin-right: 2vw;
+}
+
+#kings_contact {
+    height: 10vw;
+    width: auto;
+    float: left;
+    margin-top: 5px;
+    position: relative;
+}
+
+#well {
+    height: 5vw;
+    width: auto;
+    margin-right: 2vw;
+}
+
+#well_contact {
+    height: 10vw;
+    width: auto;
+    float: left;
+    margin-top: 5px;
+    position: relative;
+}
+
+#home {
+    margin: 0 auto;
+}
+
+#welcometext {
+    padding-top: 20%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    color: #003d6a;
+    text-align: center;
+    letter-spacing: 0.5px;
+    display: block;
+}
+
+.blur {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    opacity: 0.9;
+}
+
+#readmore_button {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 9%;
+}
+
+#readmore_text {
+    width: auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7em;
+    color: #003d6a;
+    text-align: center;
+    letter-spacing: 5px;
+    border: 1px solid #003d6a;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 6px;
+
+}
+
+#readmore_text a {
+
+    color: #003d6a;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#title_background {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color:#003d6a;
+}
+
+#text_background {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 0.25px;
+    font-weight: 300;
+    color:#003d6a;
+
+}
+
+.image_background {
+    height: 95%;
+    width: 95%;
+    margin-top: 10px;
+
+}
+
+.profile_pic_0 {
+  margin-left:50px;
+  height:80%;
+  width:80%;
+  margin-top:30px;
+}
+
+.profile_pic_1 {
+  margin-left:50px;
+  height:100%;
+  width:100%;
+}
+.profile_pic_2 {
+  width:100%;
+  height:100%;
+  margin-left:3%;
+}
+
+#title_kneecomplaints {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color:#003d6a;
+}
+
+#small_title_kneecomplaints {
+    font-family: 'Raleway', sans-serif;
+
+    letter-spacing: 1px;
+    font-weight: 500;
+    color:#003d6a;
+}
+
+#text_kneecomplaints {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 0.9em;
+    letter-spacing: 0.25px;
+    font-weight: 300;
+    color:#003d6a;
+}
+
+#text_meniscus {
+  font-family: 'Raleway', sans-serif;
+
+  font-size: 0.9em;
+  letter-spacing: 0.25px;
+  font-weight: 300;
+  color:#003d6a;
+}
+
+.image_kneecomplaints {
+    height: 100%;
+    width: 100%;
+    margin-top: 40px;
+
+}
+
+.meniscusimg {
+  height:50%;
+  width:50%;
+
+}
+
+.buttons_faq {
+  background-color:#003d6a;
+}
+
+#secretaryimg {
+  height:300px;
+  width:auto;
+}
+
+#title_physiotherapy {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color:#003d6a;
+}
+
+#text_physiotherapy {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 0.9em;
+    letter-spacing: 0.25px;
+    font-weight: 300;
+    color:#003d6a;
+}
+
+#aclimg {
+  height:300px;
+  width:auto;
+}
+
+.buttontxt {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.25px;
+  font-weight: 300;
+  color:#003d6a;
+}
+
+.image_physiotherapy {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+.top-buffer {
+    margin-top: 6%;
+}
+
+.vertical-logo_right {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3em;
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+    margin-top: 150px;
+    float: right;
+    margin-right: -80px;
+
+}
+
+.vertical-logo_left {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3em;
+    transform: rotate(90deg);
+    transform-origin: right top 0;
+    float: left;
+    margin-top: 250px;
+    margin-left: -110px;
+
+}
+
+.vertical-align {
+    vertical-align: middle;
+}
+
+#contact h1 {
+    margin-bottom: 3%;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color:#003d6a;
+}
+
+#contact_text {
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    color:#003d6a;
+}
+
+.text_contact {
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+.spaceit {
+    letter-spacing: 5px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.center {
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.hospital_address {
+
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    margin-left: 25px;
+
+
+}
+
+#copyrighticon {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* de la micutu */
+
+.header-custom {
+    position: relative;
+    width: 100%;
+}
+
+.header-social {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* MUSI */
+    margin-top:5px;
+    margin-left:10px;
+}
+
+.header-images {
+    float: right;
+    margin-right:10px;
+    /* MUSI */
+    margin-top:20px;
+}
+
+.header-images a {
+    display: inline-block;
+}
+
+.header-images img {
+    height: 6vw;
+    margin-top: calc(0.1vw + 5px);
+    margin-bottom: calc(5px);
+    margin-right: calc(1vw + 5px);
+}
+
+.header-text {
+    margin: 0 auto;
+    width: 450px;
+    text-align: center;
+    position: relative;
+    top: calc(3vw - 26px);
+
+}
+
+.marginleft {
+  margin-left:-5px;
+}
+
+@media (max-width: 650px) {
+    .header-text {
+      font-size:0.8em;
+      width:363px;
+    }
+    .marginleft {
+        margin-left:-3px;
+    }
+}
+
+
+.header-social a {
+    text-decoration: none;
+    color: #5692ce;
+    padding: 0px 10px 0px 10px;
+}
+
+.header-social a i {
+    border: 1px solid #5692ce;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+@media (max-width: 1200px) {
+    .header-images img {
+        height: 48px;
+    }
+
+    .header-text {
+        top: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-social, .header-images {
+        display: none;
+    }
+}
+
+#phonenumber {
+  display:inline-block;
+  letter-spacing: 3px;
+  margin-left:12px;
+  font-weight: 300;
+}
+
+#emailaddress {
+  display:inline-block;
+  letter-spacing: 3px;
+  margin-left:8px;
+  font-weight: 300;
+}
+
+#icon {
+  height:7em;
+  float:left;
+  padding-bottom:10px;
+  padding-top:5px;
+  /*padding-right:5px;*/
+}
+
+#icon_bottom {
+  height:70px;
+
+}
+
+.lightblue {
+  color:#5692ce;
+}
+
+.darkblue {
+  color:#013e6b;
+}
+.wellgreen {
+  color:#00afb3;
+}
+
+
+
+.dropdown-content {
+display: none;
+position: absolute;
+min-width: 300px;
+margin-left: -13px;
+margin-top: 5px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+font-size: 0.9em;
+z-index: 1;
+color: #013e6b;
+
+}
+.dropdown-content a {
+background-color: white;
+padding: 16px;
+font-size: 0.9em;
+text-decoration: none;
+display: inline-block;
+letter-spacing: 1px;
+
+
+
+}
+
+.dropdown-content a:hover {
+background-color: #9dd4ff;
+color: white;
+
+
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+
+}
+
+.dropstyle {
+  margin-left:-68px;
+
+}
+
+.nav ul li div a:hover {
+    /*border-bottom: 1px solid #5692ce;*/
+    border-bottom: 1px solid transparent;
+    /*color:#5692ce;*/
+}
+
+#logo {
+  height:5em;
+  width:auto;
+  margin-top:10px;
+}
+
+#logo_bottom {
+  height:3.5em;
+  width:auto;
+  margin-top:4px;
+  margin-bottom:4px;
+}
+
+@media (max-width: 650px) {
+    #logo {
+        margin-top:5px;
+        margin-bottom: 5px;
+    }
+
+    #logo_bottom {
+
+        margin-top:5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 800px) {
+  #logo {
+      margin-top:5px;
+      margin-bottom:5px;
+  }
+
+  #logo_bottom {
+
+      margin-top:5px;
+      margin-bottom: 5px;
+  }
+}
